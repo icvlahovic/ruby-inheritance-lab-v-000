@@ -13,6 +13,8 @@ avi.first_name = "Avi"
 avi.last_name = "Flombaum"
 
 some_knowledge = avi.teach
-5.times do steve.learn(some_knowledge)
+5.times do
+  steve.learn(some_knowledge)
+end
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 puts steve.knowledge
